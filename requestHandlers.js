@@ -3,7 +3,7 @@
  */
 
 var querystring = require("querystring");
-var PythonShell = require('python-shell');
+//var PythonShell = require('python-shell');
 
 var respond = "";
 var device = "";
