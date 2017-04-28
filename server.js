@@ -26,7 +26,7 @@ function start( route , handle )
             route( handle , pathname , response , postData);
         });
     }
-    http.createServer( onRequest ).listen(process.env.PORT);
+    http.createServer( onRequest ).listen(process.env.PORT || 8888);
     console.log( "Start Server" );
 }
 

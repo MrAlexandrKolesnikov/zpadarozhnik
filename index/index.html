@@ -8,11 +8,14 @@
   <!-- Make the application on mobile take up the full browser screen and disable user scaling. -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
   <title>Hello World!</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="/index/js/fakeLoader.min.js"></script>
   <script src="/Cesium/Build/Cesium/Cesium.js"></script>
   <script src="/index/js/index.js"></script>
   <style>
     @import url(/Cesium/Build/Cesium/Widgets/widgets.css);
     @import url("/index/css/bootstrap.css");
+    @import url("/index/css/fakeLoader.css");
     html, body, #cesiumContainer {
       width: 100%; height: 100%; margin: 0; padding: 0; overflow: hidden;
     }
@@ -25,12 +28,19 @@
   </style>
 </head>
 <body onload="onLoad()">
+<div id="fakeLoader"></div>
 
 <div id="cesiumContainer"></div>
 <div class="toolbar-left">
   <button class="btn btn-large btn-primary" type="button" onclick="alert('You clicked!');"></button>
 </div>
-<div id="loadingOverlay"><h1>Loading...</h1></div>
 <div id="toolbar"></div>
+
+<script type="text/javascript">
+    $("#fakeLoader").fakeLoader({
+        spinner:"spinner3",
+        bgColor:"#4477AA"
+    });
+</script>
 </body>
 </html>
