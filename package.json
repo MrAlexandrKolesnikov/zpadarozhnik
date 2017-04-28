@@ -1,13 +1,12 @@
 {
   "name": "zpadarozhnik",
   "version": "2.0.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies" : {
-    "express" : "2.5.x",
-    "ejs" : "0.8.x"
+  "private": true,
+  "scripts": {
+    "start": "node server"
   },
-    "engines" : {
-    "node": "0.10.x"
+  "license": "Apache",
+  "engines": {
+    "node": "~0.10.0 || ~4.2.0"
   }
 }
