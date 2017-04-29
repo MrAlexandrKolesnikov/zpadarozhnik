@@ -16,6 +16,7 @@ function onLoad()
         navigationHelpButton:false,
         geocoder:false,
         scene3DOnly:true,
+        shadows:false,
         skyBox : new Cesium.SkyBox({
             sources : {
                 positiveX : '/img/bg/4.png',
@@ -27,7 +28,7 @@ function onLoad()
             }
         }),
         skyAtmosphere:false,
-        mapProjection : new Cesium.WebMercatorProjection()
+        mapProjection : new Cesium.WebMercatorProjection(),
     });
 
     //Add basic drag and drop functionality
@@ -44,11 +45,7 @@ function onLoad()
         console.log(error);
         window.alert(error);
     });
-    var cesiumTerrainProviderMeshes = new Cesium.CesiumTerrainProvider({
-        url : 'https://assets.agi.com/stk-terrain/world',
-        requestWaterMask : true,
-        requestVertexNormals : true
-    });
-    viewer.terrainProvider = cesiumTerrainProviderMeshes;
+    viewer.scene.sun.destroy();
+    viewer.scene.moon.destroy();
 }
 
