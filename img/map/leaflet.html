@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>map</title>
+  <title>earth</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <link rel="stylesheet" href="http://npmcdn.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
   <script src="http://npmcdn.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
@@ -9,13 +9,13 @@
       var layer;
     function init() {
         var bounds = new L.LatLngBounds(
-            new L.LatLng(-85.051129, -178.538252),
-            new L.LatLng(85.051129, 179.217433));
+            new L.LatLng(-85.051129, -180.000000),
+            new L.LatLng(85.051129, 179.989927));
         var map = L.map('map').fitBounds(bounds);
         L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
         var options = {
             minZoom: 0,
-            maxZoom: 4,
+            maxZoom: 3,
             opacity: 1.0,
             tms: false
         };

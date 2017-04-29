@@ -6,6 +6,7 @@ function onLoad()
 
         //Hide the base layer picker
         baseLayerPicker : false,
+        timeLine:false,
         navigationInstructionsInitiallyVisible:false,
         fullscreenButton:false,
         baseLayerPicker:false,
@@ -16,32 +17,23 @@ function onLoad()
         geocoder:false,
         scene3DOnly:true,
         skyBox : new Cesium.SkyBox({
-            /*sources : {
-                positiveX : '/img/bg/bg.jpg',
-                negativeX : '/img/bg/bg.jpg',
-                positiveY : '/img/bg/bg.jpg',
-                negativeY : '/img/bg/bg.jpg',
-                positiveZ : '/img/bg/bg.jpg',
-                negativeZ : '/img/bg/bg.jpg'
-                /*positiveX : '/img/bg/bg.png',
-                 negativeX : '/img/bg/bg.png',
-                 positiveY : '/img/bg/bg.png',
-                 negativeY : '/img/bg/bg.png',
-                 positiveZ : '/img/bg/bg.png',
-                 negativeZ : '/img/bg/bg.png'
-            },*/
-            show:false
+            sources : {
+                positiveX : '/img/bg/4.png',
+                negativeX : '/img/bg/1.png',
+                positiveY : '/img/bg/5.png',
+                negativeY : '/img/bg/2.png',
+                positiveZ : '/img/bg/6.png',
+                negativeZ : '/img/bg/3.png'
+            }
         }),
         skyAtmosphere:false,
-        // Show Columbus View map with Web Mercator projection
         mapProjection : new Cesium.WebMercatorProjection()
     });
 
     //Add basic drag and drop functionality
     var tms = new Cesium.UrlTemplateImageryProvider({
         url : '/img/map/{z}/{x}/{y}.png',
-        credit : '© Analytical Graphics, Inc.',
-        maximumLevel : 5
+        maximumLevel : 4
     });
     viewer.imageryLayers.addImageryProvider(tms);
     viewer.extend(Cesium.viewerDragDropMixin);

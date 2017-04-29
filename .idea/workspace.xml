@@ -2,13 +2,356 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c27fcda4-c048-41c7-a43d-325b94907ef8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cesium/Build/CesiumUnminified/Widgets/Timeline/Timeline.css" afterPath="$PROJECT_DIR$/Cesium/Build/CesiumUnminified/Widgets/Timeline/Timeline.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cesium/Build/CesiumUnminified/Widgets/Viewer/Viewer.css" afterPath="$PROJECT_DIR$/Cesium/Build/CesiumUnminified/Widgets/Viewer/Viewer.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bg/bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bg/bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/0/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/0/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/0/10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/0/11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/0/12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/0/13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/0/14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/0/15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/0/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/0/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/0/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/0/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/0/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/0/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/0/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/0/9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/1/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/1/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/1/10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/1/11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/1/12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/1/13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/1/14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/1/15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/1/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/1/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/1/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/1/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/1/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/1/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/1/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/1/9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/10/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/10/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/10/10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/10/11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/10/12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/10/13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/10/14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/10/15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/10/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/10/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/10/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/10/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/10/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/10/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/10/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/10/9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/11/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/11/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/11/10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/11/11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/11/12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/11/13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/11/14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/11/15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/11/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/11/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/11/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/11/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/11/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/11/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/11/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/11/9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/12/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/12/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/12/10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/12/11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/12/12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/12/13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/12/14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/12/15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/12/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/12/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/12/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/12/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/12/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/12/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/12/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/12/9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/13/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/13/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/13/10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/13/11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/13/12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/13/13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/13/14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/13/15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/13/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/13/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/13/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/13/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/13/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/13/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/13/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/13/9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/14/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/14/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/14/10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/14/11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/14/12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/14/13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/14/14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/14/15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/14/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/14/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/14/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/14/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/14/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/14/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/14/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/14/9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/15/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/15/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/15/10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/15/11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/15/12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/15/13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/15/14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/15/15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/15/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/15/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/15/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/15/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/15/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/15/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/15/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/15/9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/2/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/2/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/2/10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/2/11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/2/12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/2/13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/2/14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/2/15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/2/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/2/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/2/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/2/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/2/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/2/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/2/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/2/9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/3/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/3/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/3/10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/3/11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/3/12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/3/13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/3/14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/3/15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/3/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/3/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/3/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/3/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/3/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/3/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/3/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/3/9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/4/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/4/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/4/10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/4/11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/4/12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/4/13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/4/14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/4/15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/4/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/4/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/4/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/4/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/4/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/4/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/4/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/4/9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/5/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/5/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/5/10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/5/11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/5/12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/5/13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/5/14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/5/15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/5/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/5/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/5/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/5/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/5/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/5/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/5/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/5/9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/6/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/6/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/6/10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/6/11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/6/12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/6/13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/6/14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/6/15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/6/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/6/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/6/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/6/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/6/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/6/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/6/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/6/9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/7/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/7/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/7/10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/7/11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/7/12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/7/13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/7/14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/7/15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/7/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/7/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/7/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/7/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/7/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/7/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/7/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/7/9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/8/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/8/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/8/10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/8/11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/8/12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/8/13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/8/14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/8/15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/8/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/8/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/8/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/8/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/8/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/8/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/8/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/8/9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/9/0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/9/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/9/10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/9/11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/9/12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/9/13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/9/14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/9/15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/9/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/9/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/9/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/9/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/9/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/9/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/9/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/map/4/9/9.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/0/0/0.png" afterPath="$PROJECT_DIR$/img/map/0/0/0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/1/0/0.png" afterPath="$PROJECT_DIR$/img/map/1/0/0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/1/0/1.png" afterPath="$PROJECT_DIR$/img/map/1/0/1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/1/1/0.png" afterPath="$PROJECT_DIR$/img/map/1/1/0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/1/1/1.png" afterPath="$PROJECT_DIR$/img/map/1/1/1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/2/0/0.png" afterPath="$PROJECT_DIR$/img/map/2/0/0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/2/0/1.png" afterPath="$PROJECT_DIR$/img/map/2/0/1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/2/0/2.png" afterPath="$PROJECT_DIR$/img/map/2/0/2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/2/0/3.png" afterPath="$PROJECT_DIR$/img/map/2/0/3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/2/1/0.png" afterPath="$PROJECT_DIR$/img/map/2/1/0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/2/1/1.png" afterPath="$PROJECT_DIR$/img/map/2/1/1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/2/1/2.png" afterPath="$PROJECT_DIR$/img/map/2/1/2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/2/1/3.png" afterPath="$PROJECT_DIR$/img/map/2/1/3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/2/2/0.png" afterPath="$PROJECT_DIR$/img/map/2/2/0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/2/2/1.png" afterPath="$PROJECT_DIR$/img/map/2/2/1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/2/2/2.png" afterPath="$PROJECT_DIR$/img/map/2/2/2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/2/2/3.png" afterPath="$PROJECT_DIR$/img/map/2/2/3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/2/3/0.png" afterPath="$PROJECT_DIR$/img/map/2/3/0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/2/3/1.png" afterPath="$PROJECT_DIR$/img/map/2/3/1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/2/3/2.png" afterPath="$PROJECT_DIR$/img/map/2/3/2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/2/3/3.png" afterPath="$PROJECT_DIR$/img/map/2/3/3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/0/0.png" afterPath="$PROJECT_DIR$/img/map/3/0/0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/0/1.png" afterPath="$PROJECT_DIR$/img/map/3/0/1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/0/2.png" afterPath="$PROJECT_DIR$/img/map/3/0/2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/0/3.png" afterPath="$PROJECT_DIR$/img/map/3/0/3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/0/4.png" afterPath="$PROJECT_DIR$/img/map/3/0/4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/0/5.png" afterPath="$PROJECT_DIR$/img/map/3/0/5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/0/6.png" afterPath="$PROJECT_DIR$/img/map/3/0/6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/0/7.png" afterPath="$PROJECT_DIR$/img/map/3/0/7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/1/0.png" afterPath="$PROJECT_DIR$/img/map/3/1/0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/1/1.png" afterPath="$PROJECT_DIR$/img/map/3/1/1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/1/2.png" afterPath="$PROJECT_DIR$/img/map/3/1/2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/1/3.png" afterPath="$PROJECT_DIR$/img/map/3/1/3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/1/4.png" afterPath="$PROJECT_DIR$/img/map/3/1/4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/1/5.png" afterPath="$PROJECT_DIR$/img/map/3/1/5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/1/6.png" afterPath="$PROJECT_DIR$/img/map/3/1/6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/1/7.png" afterPath="$PROJECT_DIR$/img/map/3/1/7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/2/0.png" afterPath="$PROJECT_DIR$/img/map/3/2/0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/2/1.png" afterPath="$PROJECT_DIR$/img/map/3/2/1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/2/2.png" afterPath="$PROJECT_DIR$/img/map/3/2/2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/2/3.png" afterPath="$PROJECT_DIR$/img/map/3/2/3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/2/4.png" afterPath="$PROJECT_DIR$/img/map/3/2/4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/2/5.png" afterPath="$PROJECT_DIR$/img/map/3/2/5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/2/6.png" afterPath="$PROJECT_DIR$/img/map/3/2/6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/2/7.png" afterPath="$PROJECT_DIR$/img/map/3/2/7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/3/0.png" afterPath="$PROJECT_DIR$/img/map/3/3/0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/3/1.png" afterPath="$PROJECT_DIR$/img/map/3/3/1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/3/2.png" afterPath="$PROJECT_DIR$/img/map/3/3/2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/3/3.png" afterPath="$PROJECT_DIR$/img/map/3/3/3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/3/4.png" afterPath="$PROJECT_DIR$/img/map/3/3/4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/3/5.png" afterPath="$PROJECT_DIR$/img/map/3/3/5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/3/6.png" afterPath="$PROJECT_DIR$/img/map/3/3/6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/3/7.png" afterPath="$PROJECT_DIR$/img/map/3/3/7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/4/0.png" afterPath="$PROJECT_DIR$/img/map/3/4/0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/4/1.png" afterPath="$PROJECT_DIR$/img/map/3/4/1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/4/2.png" afterPath="$PROJECT_DIR$/img/map/3/4/2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/4/3.png" afterPath="$PROJECT_DIR$/img/map/3/4/3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/4/4.png" afterPath="$PROJECT_DIR$/img/map/3/4/4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/4/5.png" afterPath="$PROJECT_DIR$/img/map/3/4/5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/4/6.png" afterPath="$PROJECT_DIR$/img/map/3/4/6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/4/7.png" afterPath="$PROJECT_DIR$/img/map/3/4/7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/5/0.png" afterPath="$PROJECT_DIR$/img/map/3/5/0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/5/1.png" afterPath="$PROJECT_DIR$/img/map/3/5/1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/5/2.png" afterPath="$PROJECT_DIR$/img/map/3/5/2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/5/3.png" afterPath="$PROJECT_DIR$/img/map/3/5/3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/5/4.png" afterPath="$PROJECT_DIR$/img/map/3/5/4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/5/5.png" afterPath="$PROJECT_DIR$/img/map/3/5/5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/5/6.png" afterPath="$PROJECT_DIR$/img/map/3/5/6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/5/7.png" afterPath="$PROJECT_DIR$/img/map/3/5/7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/6/0.png" afterPath="$PROJECT_DIR$/img/map/3/6/0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/6/1.png" afterPath="$PROJECT_DIR$/img/map/3/6/1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/6/2.png" afterPath="$PROJECT_DIR$/img/map/3/6/2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/6/3.png" afterPath="$PROJECT_DIR$/img/map/3/6/3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/6/4.png" afterPath="$PROJECT_DIR$/img/map/3/6/4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/6/5.png" afterPath="$PROJECT_DIR$/img/map/3/6/5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/6/6.png" afterPath="$PROJECT_DIR$/img/map/3/6/6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/6/7.png" afterPath="$PROJECT_DIR$/img/map/3/6/7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/7/0.png" afterPath="$PROJECT_DIR$/img/map/3/7/0.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/7/1.png" afterPath="$PROJECT_DIR$/img/map/3/7/1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/7/2.png" afterPath="$PROJECT_DIR$/img/map/3/7/2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/7/3.png" afterPath="$PROJECT_DIR$/img/map/3/7/3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/7/4.png" afterPath="$PROJECT_DIR$/img/map/3/7/4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/7/5.png" afterPath="$PROJECT_DIR$/img/map/3/7/5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/7/6.png" afterPath="$PROJECT_DIR$/img/map/3/7/6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/3/7/7.png" afterPath="$PROJECT_DIR$/img/map/3/7/7.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/googlemaps.html" afterPath="$PROJECT_DIR$/img/map/googlemaps.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/index.html" afterPath="$PROJECT_DIR$/img/map/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/leaflet.html" afterPath="$PROJECT_DIR$/img/map/leaflet.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/metadata.json" afterPath="$PROJECT_DIR$/img/map/metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map/openlayers.html" afterPath="$PROJECT_DIR$/img/map/openlayers.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/index.html" afterPath="$PROJECT_DIR$/index/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/js/index.js" afterPath="$PROJECT_DIR$/index/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requestHandlers.js" afterPath="$PROJECT_DIR$/requestHandlers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,29 +369,35 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="56" column="32" lean-forward="true" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+            <state relative-caret-position="525">
+              <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Timeline.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cesium/Build/Cesium/Widgets/Timeline/Timeline.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="1657" lean-forward="false" selection-start-line="0" selection-start-column="1657" selection-end-line="0" selection-end-column="1657" />
-              <folding />
-            </state>
+      <file leaf-file-name="0.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/night_map/0/0/0.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cesium/Apps/TimelineDemo/index.html">
+      <file leaf-file-name="skyBox.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/skyBox.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fakeLoader.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index/js/fakeLoader.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="15">
+              <caret line="3" column="2120" lean-forward="false" selection-start-line="3" selection-start-column="2120" selection-end-line="3" selection-end-column="2120" />
+              <folding>
+                <element signature="e#0#42#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,8 +405,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="24" column="6" lean-forward="false" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+            <state relative-caret-position="-201">
+              <caret line="15" column="58" lean-forward="false" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -97,27 +446,7 @@
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="28" column="46" lean-forward="false" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lighter.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cesium/Build/Cesium/Widgets/Timeline/lighter.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -152,9 +481,9 @@
         <option value="$PROJECT_DIR$/requestHandlers.js" />
         <option value="$PROJECT_DIR$/Cesium/Build/Cesium/Widgets/widgets.css" />
         <option value="$PROJECT_DIR$/server.js" />
-        <option value="$PROJECT_DIR$/index/js/index.js" />
-        <option value="$PROJECT_DIR$/index/index.html" />
         <option value="$PROJECT_DIR$/index/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/index/index.html" />
+        <option value="$PROJECT_DIR$/index/js/index.js" />
       </list>
     </option>
   </component>
@@ -245,6 +574,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zpadarozhnik" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zpadarozhnik" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -438,12 +781,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1493398642504</updated>
-      <workItem from="1493398643803" duration="8760000" />
+      <workItem from="1493398643803" duration="11537000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8760000" />
+    <option name="totallyTimeSpent" value="11537000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="23" width="1240" height="777" extended-state="6" />
@@ -483,16 +826,6 @@
         <state relative-caret-position="567">
           <caret line="64" column="1" lean-forward="false" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/js/fakeLoader.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="3" column="2120" lean-forward="false" selection-start-line="3" selection-start-column="2120" selection-end-line="3" selection-end-column="2120" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -595,7 +928,7 @@
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -604,14 +937,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="24" column="6" lean-forward="false" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -632,10 +957,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/img/skyBox.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-201">
+          <caret line="15" column="58" lean-forward="false" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/skyBox.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/js/fakeLoader.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="3" column="2120" lean-forward="false" selection-start-line="3" selection-start-column="2120" selection-end-line="3" selection-end-column="2120" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/night_map/0/0/0.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/map/2/1/0.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="56" column="32" lean-forward="true" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+        <state relative-caret-position="525">
+          <caret line="35" column="24" lean-forward="false" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
           <folding />
         </state>
       </provider>
