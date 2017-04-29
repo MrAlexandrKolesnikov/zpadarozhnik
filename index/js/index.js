@@ -29,7 +29,6 @@ function onLoad()
         skyAtmosphere:false,
         mapProjection : new Cesium.WebMercatorProjection(),
     });
-
     //Add basic drag and drop functionality
     var tms = new Cesium.UrlTemplateImageryProvider({
         url : '/img/map/{z}/{x}/{y}.png',
@@ -37,8 +36,8 @@ function onLoad()
     });
     viewer.imageryLayers.addImageryProvider(tms);
     viewer.extend(Cesium.viewerDragDropMixin);
-    viewer.dataSources.add(Cesium.CzmlDataSource.load('/Cesium/sample9.czml'));
-    viewer.dataSources.add(Cesium.CzmlDataSource.load('/Cesium/sample8.czml'));
+    viewer.dataSources.add(Cesium.CzmlDataSource.load('/Cesium/sample1.czml'));
+    viewer.dataSources.add(Cesium.CzmlDataSource.load('/Cesium/sample1_1.czml'));
     //Show a pop-up alert if we encounter an error when processing a dropped file
     viewer.dropError.addEventListener(function(dropHandler, name, error) {
         console.log(error);
