@@ -10,13 +10,13 @@
 .cesium-button {
     display: inline-block;
     position: relative;
-    background: #ffff66;
+    background: ;
     border: 1px solid #444;
     color: #f3d118;
     fill: #edffff;
-    border-radius: 4px;
+    border-radius: 0px;
     padding: 5px 12px;
-    margin: 2px 3px;
+    margin: 50% 50%;
     cursor: pointer;
     overflow: hidden;
     -moz-user-select: none;
@@ -1226,6 +1226,7 @@ span.cesium-projectionPicker-wrapper {
     left: 0;
     right: 0;
     padding-right: 5px;
+
 }
 
 .cesium-viewer .cesium-widget-credits {
