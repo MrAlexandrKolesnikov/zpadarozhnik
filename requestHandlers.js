@@ -19,6 +19,16 @@ function index( response , postDate)
             response.end();
         });
 }
+
+function help( response , postDate)
+{
+    fs = require('fs');
+    fs.readFile('./help/help.html', function (err, info) {
+        if (err) throw err;
+        response.write(info);
+        response.end();
+    });
+}
 /**
  * Created by sasha on 18/07/16.
  */
@@ -32,7 +42,6 @@ function error( response , postData )
 function file( response , postData )
 {
     // Читаем файл
-    console.log(postData);
     fs = require( 'fs' );
     fs.readFile( '.' + postData , function( err , info )
     {
@@ -47,4 +56,5 @@ function file( response , postData )
 
 exports.file = file;
 exports.index = index;
+exports.help = help;
 exports.error = error;

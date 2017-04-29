@@ -11,6 +11,7 @@ var handle = {}
 handle["/"] = requestHandlers.index;
 handle["error"] = requestHandlers.error;
 handle["file"] = requestHandlers.file;
+handle["/help"] = requestHandlers.help;
 
 server.start(router.route , handle);
 
