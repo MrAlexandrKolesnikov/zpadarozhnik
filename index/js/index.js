@@ -46,5 +46,6 @@ function onLoad()
     });
     viewer.scene.sun.destroy();
     viewer.scene.moon.destroy();
+    viewer.infoBox.frame.removeAttribute('sandbox');
 }
 
