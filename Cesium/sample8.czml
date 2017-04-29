@@ -15,7 +15,7 @@
     "id":"Satellite/Soyuz",
     "name":"Soyuz",
     "availability":"2012-03-15T10:00:00Z/2012-03-16T10:00:00Z",
-    "description":"'<iframe width=\"450\" height=\"250\" src=\"https://www.youtube.com/embed/qzMQza8xZCc?rel=0&amp;showinfo=0;autoplay=1&cc_load_policy=1\" frameborder=\"0\" allowfullscreen></iframe>'"
+    "description":"'<iframe width=\"285\" height=\"200\" src=\"https://www.youtube.com/embed/qzMQza8xZCc?rel=0&amp;showinfo=0;autoplay=1&cc_load_policy=1\" frameborder=\"0\" allowfullscreen></iframe>'"
     ,
     "billboard":{
       "eyeOffset":{
