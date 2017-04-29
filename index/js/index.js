@@ -6,7 +6,6 @@ function onLoad()
 
         //Hide the base layer picker
         baseLayerPicker : false,
-        timeline:false,
         navigationInstructionsInitiallyVisible:false,
         fullscreenButton:false,
         baseLayerPicker:false,
@@ -17,7 +16,7 @@ function onLoad()
         geocoder:false,
         scene3DOnly:true,
         skyBox : new Cesium.SkyBox({
-            sources : {
+            /*sources : {
                 positiveX : '/img/bg/bg.jpg',
                 negativeX : '/img/bg/bg.jpg',
                 positiveY : '/img/bg/bg.jpg',
@@ -29,8 +28,9 @@ function onLoad()
                  positiveY : '/img/bg/bg.png',
                  negativeY : '/img/bg/bg.png',
                  positiveZ : '/img/bg/bg.png',
-                 negativeZ : '/img/bg/bg.png'*/
-            }
+                 negativeZ : '/img/bg/bg.png'
+            },*/
+            show:false
         }),
         skyAtmosphere:false,
         // Show Columbus View map with Web Mercator projection
@@ -52,5 +52,11 @@ function onLoad()
         console.log(error);
         window.alert(error);
     });
+    var cesiumTerrainProviderMeshes = new Cesium.CesiumTerrainProvider({
+        url : 'https://assets.agi.com/stk-terrain/world',
+        requestWaterMask : true,
+        requestVertexNormals : true
+    });
+    viewer.terrainProvider = cesiumTerrainProviderMeshes;
 }
 

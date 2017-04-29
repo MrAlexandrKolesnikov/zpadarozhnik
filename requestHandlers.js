@@ -32,6 +32,7 @@ function error( response , postData )
 function file( response , postData )
 {
     // Читаем файл
+    console.log(postData);
     fs = require( 'fs' );
     fs.readFile( '.' + postData , function( err , info )
     {
