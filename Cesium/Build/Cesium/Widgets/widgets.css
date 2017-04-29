@@ -10,13 +10,13 @@
 .cesium-button {
     display: inline-block;
     position: relative;
-    background: #ffff66;
-    border: 1px solid #444;
-    color: #f3d118;
-    fill: #edffff;
-    border-radius: 4px;
+    background: rgba(0, 0, 0, 0);
+    border: 0px;
+    opacity: 0.5;
+    fill: #fff;
+    border-radius: 0px;
     padding: 5px 12px;
-    margin: 2px 3px;
+    margin: 50% 50%;
     cursor: pointer;
     overflow: hidden;
     -moz-user-select: none;
@@ -27,25 +27,20 @@
 
 .cesium-button:focus {
     color: #fff;
-    fill: #fff;
-    border-color: #ea4;
     outline: none;
 }
 
 .cesium-button:hover {
     color: #fff;
-    fill: #fff;
-    background: #48b;
-    border-color: #aef;
-    box-shadow: 0 0 8px #fff;
+    background: rgba(0, 0, 0, 0);
+    opacity: 1;
+
 }
 
 .cesium-button:active {
-    color: #000;
-    fill: #000;
-    background: #adf;
-    border-color: #fff;
-    box-shadow: 0 0 8px #fff;
+    color: #fff;
+    background: rgba(0, 0, 0, 0);
+    opacity: 1;
 }
 
 .cesium-button:disabled,
@@ -53,12 +48,9 @@
 .cesium-button-disabled:focus,
 .cesium-button-disabled:hover,
 .cesium-button-disabled:active {
-    background: #303336;
-    border-color: #444;
-    color: #646464;
-    fill: #646464;
-    box-shadow: none;
-    cursor: default;
+    color: #fff;
+    background: rgba(0, 0, 0, 0);
+    opacity: 1;
 }
 
 .cesium-button option {
@@ -162,7 +154,7 @@
 
 .cesium-animation-blank {
     fill: #000;
-    fill-opacity: 0.01;
+    fill-opacity: 0.5;
     stroke: none;
 }
 
@@ -705,16 +697,10 @@
     right: 0;
     width: 40%;
     max-width: 480px;
-    background: rgba(38, 38, 38, 0.95);
-    color: #edffff;
-    border: 1px solid #444;
-    border-right: none;
+    background-color: rgba(255,255,255,.6);
+    -webkit-backdrop-filter: blur(5px);
     border-top-left-radius: 7px;
     border-bottom-left-radius: 7px;
-    box-shadow: 0 0 10px 1px #000;
-    -webkit-transform: translate(100%, 0);
-    -moz-transform: translate(100%, 0);
-    transform: translate(100%, 0);
     visibility: hidden;
     opacity: 0;
     -webkit-transition: visibility 0s 0.2s, opacity 0.2s ease-in, -webkit-transform 0.2s ease-in;
@@ -961,7 +947,7 @@ span.cesium-projectionPicker-wrapper {
 .cesium-navigation-help {
     visibility: hidden;
     position: absolute;
-    top: 38px;
+    top: 50px;
     left: 2px;
     width: 250px;
     border-radius: 10px;
@@ -987,8 +973,11 @@ span.cesium-projectionPicker-wrapper {
 }
 
 .cesium-navigation-help-instructions {
-    border: 1px solid #444;
-    background-color: rgba(38, 38, 38, 0.75);
+    border: 0px;
+    background-color: rgba(255,255,255,0.5);
+
+
+    backdrop-filter: blur(5px);
     padding-bottom: 5px;
     border-radius: 0 0 10px 10px;
 }
@@ -1065,15 +1054,15 @@ span.cesium-projectionPicker-wrapper {
 }
 
 .cesium-navigation-button-selected {
-    background-color: rgba(38, 38, 38, 0.75);
+    background-color: rgba(71, 168, 168, 1);
 }
 
 .cesium-navigation-button-unselected {
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .cesium-navigation-button-unselected:hover {
-    background-color: rgba(76, 76, 76, 0.75);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .cesium-selection-wrapper {
@@ -1226,6 +1215,7 @@ span.cesium-projectionPicker-wrapper {
     left: 0;
     right: 0;
     padding-right: 5px;
+
 }
 
 .cesium-viewer .cesium-widget-credits {
@@ -1243,7 +1233,7 @@ span.cesium-projectionPicker-wrapper {
     position: absolute;
     padding: 0;
     margin: 0;
-    bottom: 10%;
+    bottom: 5%;
     width: 70%;
     margin-left: 15%;
     height: 40px;
