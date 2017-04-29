@@ -115,46 +115,55 @@
 
 .cesium-animation-themeNormal {
     color: rgba(0,0,0,0);
+    opacity: 0;
 }
 
 .cesium-animation-themeHover {
     color: rgba(0,0,0,0);
+    opacity: 0;
 }
 
 .cesium-animation-themeSelect {
     color: rgba(0,0,0,0);
+    opacity: 0;
 }
 
 .cesium-animation-themeDisabled {
     color: rgba(0,0,0,0);
+    opacity: 0;
 }
 
 .cesium-animation-themeKnob {
     color: rgba(0,0,0,0);
+    opacity: 0;
 }
 
 .cesium-animation-themePointer {
     color: #2E2;
+    opacity: 0;
+
 }
 
 .cesium-animation-themeSwoosh {
     color: #8AC;
+    opacity: 0;
 }
 
 .cesium-animation-themeSwooshHover {
     color: #AEF;
+    opacity: 0;
 }
 
 .cesium-animation-svgText {
-    fill: #edffff;
+    fill: rgba(0,0,0,0);
     font-family: Sans-Serif;
     font-size: 15px;
     text-anchor: middle;
 }
 
 .cesium-animation-blank {
-    fill: #000;
-    fill-opacity: 0.5;
+    fill: rgba(0,0,0,0);
+    opacity: 0;
     stroke: none;
 }
 
@@ -167,7 +176,7 @@
 }
 
 .cesium-animation-rectButton .cesium-animation-buttonGlow {
-    fill: #fff;
+
     stroke: none;
     display: none;
 }
@@ -177,20 +186,30 @@
 }
 
 .cesium-animation-rectButton .cesium-animation-buttonPath {
-    fill: #edffff;
+    fill: #47a8a9;
+
+
+}
+.cesium-animation-rectButton .cesium-animation-buttonPath:hover {
+    fill: #2a8080;
+
+}
+.cesium-animation-rectButton:active .cesium-animation-buttonPath:active {
+    fill: #2a8080;
+
 }
 
 .cesium-animation-rectButton .cesium-animation-buttonMain {
-    stroke: #444;
-    stroke-width: 1.2;
+    opacity: 0;
+
 }
 
 .cesium-animation-rectButton:hover .cesium-animation-buttonMain {
-    stroke: #AEF;
+    opacity: 0;
 }
 
 .cesium-animation-rectButton:active .cesium-animation-buttonMain {
-    fill: #ABD6FF;
+
 }
 
 .cesium-animation-buttonDisabled {
@@ -201,11 +220,11 @@
 }
 
 .cesium-animation-buttonDisabled .cesium-animation-buttonMain {
-    stroke: #555;
+    stroke: #47a8a8;
 }
 
 .cesium-animation-buttonDisabled .cesium-animation-buttonPath {
-    fill: #818181;
+
 }
 
 .cesium-animation-buttonDisabled .cesium-animation-buttonGlow {
@@ -214,31 +233,35 @@
 
 .cesium-animation-buttonToggled .cesium-animation-buttonGlow {
     display: block;
-    fill: #2E2;
+    fill: #47a8a8;
 }
 
 .cesium-animation-buttonToggled .cesium-animation-buttonMain {
-    stroke: #2E2;
+    stroke: #47a8a8;
 }
 
 .cesium-animation-buttonToggled:hover .cesium-animation-buttonGlow {
-    fill: #fff;
+    fill: #47a8a8;
 }
 
 .cesium-animation-buttonToggled:hover .cesium-animation-buttonMain {
-    stroke: #2E2;
+    stroke: #47a8a8;
 }
 
 .cesium-animation-shuttleRingG {
     cursor: pointer;
+    opacity: 0;
+
 }
 
 .cesium-animation-shuttleRingPointer {
     cursor: pointer;
+    opacity: 0;
 }
 
 .cesium-animation-shuttleRingPausePointer {
     cursor: pointer;
+    opacity: 0;
 }
 
 .cesium-animation-shuttleRingBack {
@@ -251,14 +274,14 @@
 .cesium-animation-shuttleRingSwoosh line {
     stroke: rgba(0,0,0,0);
     stroke-width: 3;
-    stroke-opacity: 0.2;
+    opacity: 0;
     stroke-linecap: round;
 }
 
 .cesium-animation-knobOuter {
     cursor: pointer;
     stroke: rgba(0,0,0,0);
-    stroke-width: 1.2;
+
 }
 
 .cesium-animation-knobInner {
@@ -1233,9 +1256,9 @@ span.cesium-projectionPicker-wrapper {
     position: absolute;
     padding: 0;
     margin: 0;
-    bottom: 5%;
+    bottom: 8%;
     width: 70%;
-    margin-left: 15%;
+    margin-left: 0%;
     height: 40px;
     overflow: hidden;
     font-size: 15px;
@@ -1243,11 +1266,11 @@ span.cesium-projectionPicker-wrapper {
 
 .cesium-viewer-animationContainer {
     position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: 3%;
+    left: 43%;
     padding: 0;
-    width: 169px;
-    height: 112px;
+    width: 20%;
+    height: 20%;
 }
 
 .cesium-viewer-fullscreenContainer {
