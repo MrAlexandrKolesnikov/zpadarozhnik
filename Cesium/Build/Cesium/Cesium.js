@@ -41222,7 +41222,10 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 for (var r = i.length, n = 0; n < r; n++) {
                     var o = i[n];
                     this.trackedEntity === o && (this.trackedEntity = void 0), this.selectedEntity === o && (this.selectedEntity = void 0) } }, Z.prototype._onInfoBoxCameraClicked = function(e) {
-                if (e.isCameraTracking && this.trackedEntity === this.selectedEntity) this.trackedEntity = void 0;
+                if (e.isCameraTracking && this.trackedEntity === this.selectedEntity) {
+                    this.trackedEntity = void 0;
+                    this.camera.flyHome(2); //2 seconds to fly to Start Location
+                }
                 else {
                     var t = this.selectedEntity,
                         i = t.position;
