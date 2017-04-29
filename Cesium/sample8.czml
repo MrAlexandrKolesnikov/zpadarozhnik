@@ -12,10 +12,10 @@
     }
   },
   {
-    "id":"Satellite/Geoeye1",
-    "name":"Geoeye1",
+    "id":"Satellite/Soyuz",
+    "name":"Soyuz",
     "availability":"2012-03-15T10:00:00Z/2012-03-16T10:00:00Z",
-    "description":"<html></html>"
+    "description":"<html>This is experimental Soyuz 2017 with Lenin onboard. Path coords are taken from Meteor 8</html>"
     ,
     "billboard":{
       "eyeOffset":{
@@ -55,8 +55,13 @@
       },
       "show":true,
       "style":"FILL_AND_OUTLINE",
-      "text":"Meteor 8",
+      "text":"Soyuz",
       "verticalOrigin":"CENTER"
+    },
+    "model": {
+        "gltf" : "/Data/soyuz.glb",
+        "scale" : 2.0,
+        "minimumPixelSize": 16
     },
     "path":{
       "show":[
