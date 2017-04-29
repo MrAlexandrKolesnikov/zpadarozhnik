@@ -13,7 +13,6 @@ function onLoad()
         sceneModePicker:false,
         animation : false,
         homeButton:false,
-        navigationHelpButton:false,
         geocoder:false,
         scene3DOnly:true,
         shadows:false,
