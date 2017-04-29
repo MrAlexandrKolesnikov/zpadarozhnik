@@ -41043,14 +41043,14 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                             var fe = window.localStorage.getItem("cesium-hasSeenNavHelp");
                             r(fe) && Boolean(fe) ? pe = !1 : window.localStorage.setItem("cesium-hasSeenNavHelp", "true") } } catch (e) {}
                     he = new B({ container: te, instructionsInitiallyVisible: i(t.navigationInstructionsInitiallyVisible, pe) }) }
-                var me;
-                if (!r(t.animation) || t.animation !== !1) {
-                    var _e = document.createElement("div");
-                    _e.className = "cesium-viewer-animationContainer", d.appendChild(_e), me = new b(_e, new T(j)) }
                 var ge;
                 if (!r(t.timeline) || t.timeline !== !1) {
                     var ve = document.createElement("div");
                     ve.className = "cesium-viewer-timelineContainer", d.appendChild(ve), ge = new U(ve, q), ge.addEventListener("settime", H, !1), ge.zoomTo(q.startTime, q.stopTime) }
+                var me;
+                if (!r(t.animation) || t.animation !== !1) {
+                    var _e = document.createElement("div");
+                    _e.className = "cesium-viewer-animationContainer", d.appendChild(_e), me = new b(_e, new T(j)) }
                 var ye, Ce;
                 if (!r(t.fullscreenButton) || t.fullscreenButton !== !1) {
                     var we = document.createElement("div");
