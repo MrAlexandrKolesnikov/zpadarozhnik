@@ -14,7 +14,7 @@
     {
         "name": "LandSat 7",
         "id": "Satellite/LandSat 7",
-        "description":"<object type='text/html' data='LS8' width='80%' ></object>",
+        "description":"<object type='text/html' data='LS8' width='90%' height='90%' ></object>",
        "label": {
                    "style": "FILL_AND_OUTLINE",
                    "horizontalOrigin": "LEFT",
