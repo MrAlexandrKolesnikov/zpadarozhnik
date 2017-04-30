@@ -40484,7 +40484,7 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 var d = document.createElement("button");
                 d.type = "button", d.className = "cesium-infoBox-close", d.setAttribute("data-bind", "click: function () { closeClicked.raiseEvent(this); }"), d.innerHTML = "&times;", n.appendChild(d);
                 var h = document.createElement("iframe");
-                h.className = "cesium-infoBox-iframe", h.setAttribute("sandbox", "allow-same-origin allow-popups allow-forms"), h.setAttribute("data-bind", "style : { maxHeight : maxHeightOffset(40) }"), h.setAttribute("allowfullscreen", !0), n.appendChild(h);
+                h.className = "cesium-infoBox-iframe", h.setAttribute("sandbox", "allow-same-origin allow-popups allow-forms"), h.setAttribute("allowfullscreen", !0), n.appendChild(h);
                 var p = new u;
                 a.applyBindings(p, n), this._container = r, this._element = n, this._frame = h, this._viewModel = p, this._descriptionSubscription = void 0;
                 var f = this;
@@ -40493,7 +40493,7 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                         o = r.createElement("link");
                     o.href = e("Widgets/InfoBox/InfoBoxDescription.css"), o.rel = "stylesheet", o.type = "text/css";
                     var a = r.createElement("div");
-                    a.className = "cesium-infoBox-description", r.head.appendChild(o), r.body.appendChild(a), f._descriptionSubscription = l(p, "description", function(e) { h.style.height = "5px", a.innerHTML = e;
+                    a.className = "cesium-infoBox-description", r.head.appendChild(o), r.body.appendChild(a), f._descriptionSubscription = l(p, "description", function(e) { h.style.height = "100%", a.innerHTML = e;
                         var r = null,
                             o = a.firstElementChild;
                         if (null !== o && 1 === a.childNodes.length) {
@@ -40504,7 +40504,7 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                                 i(u) && 0 !== u.alpha && (r = s["background-color"]) } }
                         n.style["background-color"] = r;
                         var c = a.getBoundingClientRect().height;
-                        h.style.height = c + "px" }) }), h.setAttribute("src", "about:blank") }
+                        h.style.height = "100%" }) }), h.setAttribute("src", "about:blank") }
             return r(c.prototype, { container: { get: function() {
                         return this._container } }, viewModel: { get: function() {
                         return this._viewModel } }, frame: { get: function() {
