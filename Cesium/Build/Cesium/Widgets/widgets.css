@@ -155,7 +155,7 @@
 }
 
 .cesium-animation-svgText {
-    fill: rgba(0,0,0,0);
+    fill: rgba(255,0,0,1);
     font-family: Sans-Serif;
     font-size: 15px;
     text-anchor: middle;
