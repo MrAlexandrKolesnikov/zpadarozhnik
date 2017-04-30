@@ -41223,13 +41223,14 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                     var o = i[n];
                     this.trackedEntity === o && (this.trackedEntity = void 0), this.selectedEntity === o && (this.selectedEntity = void 0) } }, Z.prototype._onInfoBoxCameraClicked = function(e) {
                 if (e.isCameraTracking && this.trackedEntity === this.selectedEntity) {
+                    this.trackedEntity.label.font = "11pt Lucida Console";
                     this.trackedEntity = void 0;
                     this.camera.flyHome(2); //2 seconds to fly to Start Location
                 }
                 else {
                     var t = this.selectedEntity,
                         i = t.position;
-                    r(i) ? this.trackedEntity = this.selectedEntity : this.zoomTo(this.selectedEntity) } }, Z.prototype._clearTrackedObject = function() { this.trackedEntity = void 0 }, Z.prototype._onInfoBoxClockClicked = function(e) { this.selectedEntity = void 0 }, Z.prototype._clearObjects = function() { this.trackedEntity = void 0, this.selectedEntity = void 0 }, Z.prototype._onDataSourceChanged = function(e) { this.clockTrackedDataSource === e && q(this.timeline, this.clock, e) }, Z.prototype._onDataSourceAdded = function(e, t) { this._automaticallyTrackDataSourceClocks && (this.clockTrackedDataSource = t);
+                    if(r(i))  {this.trackedEntity = this.selectedEntity ; this.trackedEntity.label.font = "1pt Lucida Console";} else{ this.zoomTo(this.selectedEntity) ;}} }, Z.prototype._clearTrackedObject = function() { this.trackedEntity = void 0 }, Z.prototype._onInfoBoxClockClicked = function(e) { this.selectedEntity = void 0 }, Z.prototype._clearObjects = function() { this.trackedEntity = void 0, this.selectedEntity = void 0 }, Z.prototype._onDataSourceChanged = function(e) { this.clockTrackedDataSource === e && q(this.timeline, this.clock, e) }, Z.prototype._onDataSourceAdded = function(e, t) { this._automaticallyTrackDataSourceClocks && (this.clockTrackedDataSource = t);
                 var i = t.entities.id,
                     r = this._eventHelper.add(t.changedEvent, Z.prototype._onDataSourceChanged, this);
                 this._dataSourceChangedListeners[i] = r }, Z.prototype._onDataSourceRemoved = function(e, t) {
