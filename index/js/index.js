@@ -40,16 +40,15 @@ function onLoad()
     viewer.extend(Cesium.viewerDragDropMixin);
     //viewer.dataSources.add(Cesium.CzmlDataSource.load('/Cesium/sample1.czml'));
     //viewer.dataSources.add(Cesium.CzmlDataSource.load('/Cesium/sample1_1.czml'));
-<<<<<<< Updated upstream
+
     viewer.dataSources.add(Cesium.CzmlDataSource.load('/Cesium/sample8.czml'));
     //viewer.dataSources.add(Cesium.CzmlDataSource.load('/Cesium/json.czml'));
-=======
->>>>>>> Stashed changes
+
+
     //Show a pop-up alert if we encounter an error when processing a dropped file
     viewer.dropError.addEventListener(function(dropHandler, name, error) {
         console.log(error);
         window.alert(error);
-<<<<<<< Updated upstream
     });
 
     // var pinBuilder = new Cesium.PinBuilder();
@@ -68,19 +67,12 @@ function onLoad()
     viewer.scene.sun.destroy();
     viewer.scene.moon.destroy();
     viewer.infoBox.frame.removeAttribute('sandbox');
-=======
-    })
     viewer.scene.sun.destroy();
     viewer.scene.moon.destroy();
     var data = Cesium.CzmlDataSource.load('/Cesium/json5.czml');
     viewer.dataSources.add(data);
-    viewer.Clock= new Cesium.Clock({
-        startTime : Cesium.JulianDate.fromIso8601("1957-01-01"),
-        stopTime : Cesium.JulianDate.fromIso8601("2017-01-01"),
-        clockRange : Cesium.ClockRange.LOOP_STOP,
-        clockStep : Cesium.ClockStep.SYSTEM_CLOCK_MULTIPLIER
-    });
->>>>>>> Stashed changes
+
+
 }
 
 
