@@ -61,10 +61,10 @@ function file( response , postData ) {
     });
 }
 
-function soyuz( response , postDate)
+function ISS( response , postDate)
 {
     fs = require('fs');
-    fs.readFile('./sattelite/soyuz/soyuz.html', function (err, info) {
+    fs.readFile('./satellite/ISS.html', function (err, info) {
         if (err) throw err;
         response.write(info);
         response.end();
@@ -75,5 +75,5 @@ exports.file = file;
 exports.index = index;
 exports.help = help;
 exports.model = model;
-exports.soyuz = soyuz;
+exports.ISS = ISS;
 exports.error = error;
