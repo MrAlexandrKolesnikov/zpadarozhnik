@@ -40,7 +40,8 @@ function onLoad()
     viewer.extend(Cesium.viewerDragDropMixin);
 
     viewer.dataSources.add(Cesium.CzmlDataSource.load('/Data/landsat_8.czml'));
-    viewer.dataSources.add(Cesium.CzmlDataSource.load('/Data/NOAA-18.czml'));
+    viewer.dataSources.add(Cesium.CzmlDataSource.load('/Data/Soyuz.czml'));
+    viewer.dataSources.add(Cesium.CzmlDataSource.load('/Data/iss.czml'));
     //Show a pop-up alert if we encounter an error when processing a dropped file
     viewer.dropError.addEventListener(function(dropHandler, name, error) {
         console.log(error);
