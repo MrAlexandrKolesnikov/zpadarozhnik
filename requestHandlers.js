@@ -48,26 +48,43 @@ function error( response , postData )
     response.end();
 }
 
-function file( response , postData )
-{
+function file( response , postData ) {
     // Читаем файл
-    fs = require( 'fs' );
-    fs.readFile( '.' + postData , function( err , info )
+    fs = require('fs');
+    fs.readFile('.' + postData, function (err, info)
     {
-        if ( err ) error( response , postData );
-        else 
-        {
-            response.write( info );
+        if (err) error(response, postData);
+        else {
+            response.write(info);
             response.end();
         }
     });
 }
 
-
-function soyuz( response , postDate)
+function ISS( response , postDate)
 {
     fs = require('fs');
-    fs.readFile('./sattelite/soyuz/soyuz.html', function (err, info) {
+    fs.readFile('./satellite/ISS.html', function (err, info) {
+        if (err) throw err;
+        response.write(info);
+        response.end();
+    });
+}
+
+function LS7( response , postDate)
+{
+    fs = require('fs');
+    fs.readFile('./satellite/landsat-7.html', function (err, info) {
+        if (err) throw err;
+        response.write(info);
+        response.end();
+    });
+}
+
+function LS8( response , postDate)
+{
+    fs = require('fs');
+    fs.readFile('./satellite/landsat-8.html', function (err, info) {
         if (err) throw err;
         response.write(info);
         response.end();
@@ -78,5 +95,7 @@ exports.file = file;
 exports.index = index;
 exports.help = help;
 exports.model = model;
-exports.soyuz = soyuz;
+exports.ISS = ISS;
+exports.LS7 = LS7;
+exports.LS8 = LS8;
 exports.error = error;

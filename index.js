@@ -13,7 +13,9 @@ handle["error"] = requestHandlers.error;
 handle["file"] = requestHandlers.file;
 handle["/help"] = requestHandlers.help;
 handle["/model"] = requestHandlers.model;
-handle["/soyuz"] = requestHandlers.soyuz;
+handle["/ISS"] = requestHandlers.ISS;
+handle["/LS7"] = requestHandlers.LS7;
+handle["/LS8"] = requestHandlers.LS8;
 
 server.start(router.route , handle);
 

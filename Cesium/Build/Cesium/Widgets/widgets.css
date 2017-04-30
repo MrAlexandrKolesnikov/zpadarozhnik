@@ -155,7 +155,7 @@
 }
 
 .cesium-animation-svgText {
-    fill: rgba(0,0,0,0);
+    fill: rgba(255,0,0,1);
     font-family: Sans-Serif;
     font-size: 15px;
     text-anchor: middle;
@@ -179,10 +179,12 @@
 
     stroke: none;
     display: none;
+    opacity: 0;
 }
 
 .cesium-animation-rectButton:hover .cesium-animation-buttonGlow {
     display: block;
+    opacity: 0;
 }
 
 .cesium-animation-rectButton .cesium-animation-buttonPath {
@@ -209,7 +211,7 @@
 }
 
 .cesium-animation-rectButton:active .cesium-animation-buttonMain {
-
+    opacity: 0;
 }
 
 .cesium-animation-buttonDisabled {
@@ -221,10 +223,11 @@
 
 .cesium-animation-buttonDisabled .cesium-animation-buttonMain {
     stroke: #47a8a8;
+    opacity:0;
 }
 
 .cesium-animation-buttonDisabled .cesium-animation-buttonPath {
-
+    opacity:0;
 }
 
 .cesium-animation-buttonDisabled .cesium-animation-buttonGlow {

@@ -1,7 +1,9 @@
 
+var viewer;
+
 function onLoad()
 {
-    var viewer = new Cesium.Viewer('cesiumContainer', {
+    viewer = new Cesium.Viewer('cesiumContainer', {
         //Use standard Cesium terrain
 
         //Hide the base layer picker
@@ -36,31 +38,19 @@ function onLoad()
     });
     viewer.imageryLayers.addImageryProvider(tms);
     viewer.extend(Cesium.viewerDragDropMixin);
-    //viewer.dataSources.add(Cesium.CzmlDataSource.load('/Cesium/sample1.czml'));
-    //viewer.dataSources.add(Cesium.CzmlDataSource.load('/Cesium/sample1_1.czml'));
-    viewer.dataSources.add(Cesium.CzmlDataSource.load('/Cesium/sample8.czml'));
-    //viewer.dataSources.add(Cesium.CzmlDataSource.load('/Cesium/json.czml'));
+
+    viewer.dataSources.add(Cesium.CzmlDataSource.load('/Data/landsat_8.czml'));
+    viewer.dataSources.add(Cesium.CzmlDataSource.load('/Data/NOAA-18.czml'));
     //Show a pop-up alert if we encounter an error when processing a dropped file
     viewer.dropError.addEventListener(function(dropHandler, name, error) {
         console.log(error);
         window.alert(error);
     });
 
-    // var pinBuilder = new Cesium.PinBuilder();
-    //
-    // var bluePin = viewer.entities.add({
-    //     description: '<iframe width="400" height="300" src="https://www.youtube.com/embed/ACJJi5re5NU" frameborder="0" allowfullscreen></iframe>',
-    //     position : Cesium.Cartesian3.fromDegrees(-75.170726, 39.9208667),
-    //     billboard : {
-    //         image : pinBuilder.fromColor(Cesium.Color.ROYALBLUE, 48).toDataURL(),
-    //         verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-    //     }
-    // });
-    // cos
-    //viewer.zoomTo(bluePin);
-
     viewer.scene.sun.destroy();
     viewer.scene.moon.destroy();
     viewer.infoBox.frame.removeAttribute('sandbox');
+
 }
+
 
