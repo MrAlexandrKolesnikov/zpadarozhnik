@@ -58,7 +58,7 @@
       "verticalOrigin":"CENTER"
     },
     "model": {
-        "gltf" : "/data/soyuz.glb",
+        "gltf" : "/data/geliosat.glb",
         "scale" : 2.0,
         "minimumPixelSize": 16
     },
