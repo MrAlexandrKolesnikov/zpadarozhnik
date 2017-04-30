@@ -71,9 +71,31 @@ function ISS( response , postDate)
     });
 }
 
+function LS7( response , postDate)
+{
+    fs = require('fs');
+    fs.readFile('./satellite/landsat-7.html', function (err, info) {
+        if (err) throw err;
+        response.write(info);
+        response.end();
+    });
+}
+
+function LS8( response , postDate)
+{
+    fs = require('fs');
+    fs.readFile('./satellite/landsat-8.html', function (err, info) {
+        if (err) throw err;
+        response.write(info);
+        response.end();
+    });
+}
+
 exports.file = file;
 exports.index = index;
 exports.help = help;
 exports.model = model;
 exports.ISS = ISS;
+exports.LS7 = LS7;
+exports.LS8 = LS8;
 exports.error = error;
