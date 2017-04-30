@@ -48,21 +48,18 @@ function error( response , postData )
     response.end();
 }
 
-function file( response , postData )
-{
+function file( response , postData ) {
     // Читаем файл
-    fs = require( 'fs' );
-    fs.readFile( '.' + postData , function( err , info )
+    fs = require('fs');
+    fs.readFile('.' + postData, function (err, info)
     {
-        if ( err ) error( response , postData );
-        else 
-        {
-            response.write( info );
+        if (err) error(response, postData);
+        else {
+            response.write(info);
             response.end();
         }
     });
 }
-
 
 function soyuz( response , postDate)
 {
