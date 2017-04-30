@@ -39,7 +39,7 @@ function onLoad()
     //viewer.dataSources.add(Cesium.CzmlDataSource.load('/Cesium/sample1.czml'));
     //viewer.dataSources.add(Cesium.CzmlDataSource.load('/Cesium/sample1_1.czml'));
     viewer.dataSources.add(Cesium.CzmlDataSource.load('/Cesium/sample8.czml'));
-    viewer.dataSources.add(Cesium.CzmlDataSource.load('/Cesium/json.czml'));
+    //viewer.dataSources.add(Cesium.CzmlDataSource.load('/Cesium/json.czml'));
     //Show a pop-up alert if we encounter an error when processing a dropped file
     viewer.dropError.addEventListener(function(dropHandler, name, error) {
         console.log(error);

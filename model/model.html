@@ -65,9 +65,9 @@
 			<select id="scenes_list" size="1" onchange="selectScene();" ondblclick="selectScene();"></select>
 		</div>
 	</div>
-		<script src="plug-in/three.js"></script>
-		<script src="plug-in/OrbitControls.js"></script>
-		<script src="plug-in/GLTFLoader.js"></script>
+		<script src="./plug-in/three.js"></script>
+		<script src="./plug-in/OrbitControls.js"></script>
+		<script src="./plug-in/GLTFLoader.js"></script>
 
 		<script>
 			var orbitControls = null;
@@ -181,7 +181,7 @@
 
 			var sceneList = [
 				{
-					name : "Monster", url : "data/soyuz.glb",
+					name : "Monster", url : "./Data/soyuz.glb",
 					cameraPos: new THREE.Vector3(30, 10, 70),
 					objectScale: new THREE.Vector3(0.4, 0.4, 0.4),
 					objectPosition: new THREE.Vector3(20, 30, 20),

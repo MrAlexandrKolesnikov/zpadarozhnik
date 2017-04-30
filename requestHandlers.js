@@ -29,6 +29,15 @@ function help( response , postDate)
         response.end();
     });
 }
+function model( response , postDate)
+{
+    fs = require('fs');
+    fs.readFile('./model/model.html', function (err, info) {
+        if (err) throw err;
+        response.write(info);
+        response.end();
+    });
+}
 /**
  * Created by sasha on 18/07/16.
  */
@@ -54,7 +63,20 @@ function file( response , postData )
     });
 }
 
+
+function soyuz( response , postDate)
+{
+    fs = require('fs');
+    fs.readFile('./sattelite/soyuz/soyuz.html', function (err, info) {
+        if (err) throw err;
+        response.write(info);
+        response.end();
+    });
+}
+
 exports.file = file;
 exports.index = index;
 exports.help = help;
+exports.model = model;
+exports.soyuz = soyuz;
 exports.error = error;
